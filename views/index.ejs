@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to L-EARN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div><% include partials/header %></div>
+    <div class="container">
+        <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magnam, officiis ullam delectus et
+            doloribus corporis nobis enim. Eaque, voluptatem ratione impedit neque asperiores similique commodi
+            aspernatur perferendis temporibus sequi.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sint officia earum temporibus eius delectus
+            dolores voluptate fuga, molestiae a incidunt velit labore quis iste. Repudiandae error in fugit laudantium?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus in voluptates? Reprehenderit
+            veniam ut vitae accusantium unde nemo quo at adipisci, suscipit dolorum similique veritatis esse, eveniet,
+            ipsa quis.
+        </h3>
+    </div>
+    <section  style="background-color: blanchedalmond;margin-bottom: 20px;">
+        <h1>Activities</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, et delectus eaque excepturi ipsum non impedit
+        labore nostrum eos minima repudiandae nam, voluptate placeat dignissimos, molestiae illo! Accusamus, dolorem
+        aspernatur.
+        <h1 style="font-weight:100;">Current Activities</h1>
+        <h1 style="font-weight:100;">Past Activities</h1>
+    </section>
+    <section  style="background-color: blanchedalmond;margin-bottom: 20px;">
+            <h1>Internships</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, et delectus eaque excepturi ipsum non impedit
+        labore nostrum eos minima repudiandae nam, voluptate placeat dignissimos, molestiae illo! Accusamus, dolorem
+        aspernatur.
+        <h1 style="font-weight:100;">Current Internships</h1>
+        <h1 style="font-weight:100;">Past Internships</h1>
+    </section>
+    <section  style="background-color: blanchedalmond;margin-bottom: 20px;">
+            <h1>Hackathons</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, et delectus eaque excepturi ipsum non impedit
+        labore nostrum eos minima repudiandae nam, voluptate placeat dignissimos, molestiae illo! Accusamus, dolorem
+        aspernatur.
+        <h1 style="font-weight:100;">Current Hackathons</h1>
+        <h1 style="font-weight:100;">Past Hackathons</h1>
+    </section>
+    <section  style="background-color: blanchedalmond;margin-bottom: 20px;">
+            <h1>Techdays</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, et delectus eaque excepturi ipsum non impedit
+        labore nostrum eos minima repudiandae nam, voluptate placeat dignissimos, molestiae illo! Accusamus, dolorem
+        aspernatur.
+        <h1 style="font-weight:100;">Current Techdays</h1>
+        <h1 style="font-weight:100;">Past Techdays</h1>
+    </section>
+</body>
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+</script>
+
+</html>
